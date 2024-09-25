@@ -28,7 +28,7 @@ struct AuthView: View {
                             .scaledToFill()
                             .frame(width: 350, height: 350)
                         
-                        TextField("", text: $email, prompt: Text("E-mail").foregroundStyle(.white.opacity(0.6)))
+                        TextField("", text: $email, prompt: Text("E-mail").foregroundColor(.white.opacity(0.6)))
                             .padding()
                             .padding(.vertical, 5)
                             .background {
@@ -39,7 +39,7 @@ struct AuthView: View {
                             .padding(.horizontal)
                             .padding(.top, -70)
                         
-                        TextField("", text: $password, prompt: Text("Password").foregroundStyle(.white.opacity(0.6)))
+                        TextField("", text: $password, prompt: Text("Password").foregroundColor(.white.opacity(0.6)))
                             .padding()
                             .padding(.vertical, 5)
                             .background {

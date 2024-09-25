@@ -48,7 +48,7 @@ struct RegistrationView: View {
             
             ScrollView {
                 VStack(spacing: 30) {
-                    TextField("", text: $email, prompt: Text("E-mail").foregroundStyle(.white.opacity(0.6)))
+                    TextField("", text: $email, prompt: Text("E-mail").foregroundColor(.white.opacity(0.6)))
                         .padding()
                         .padding(.vertical, 5)
                         .background {
@@ -59,7 +59,7 @@ struct RegistrationView: View {
                         .padding(.horizontal)
                         .padding(.top, 50)
                     
-                    TextField("", text: $name, prompt: Text("Name").foregroundStyle(.white.opacity(0.6)))
+                    TextField("", text: $name, prompt: Text("Name").foregroundColor(.white.opacity(0.6)))
                         .padding()
                         .padding(.vertical, 5)
                         .background {
@@ -69,7 +69,7 @@ struct RegistrationView: View {
                         }
                         .padding(.horizontal)
                     
-                    TextField("", text: $password, prompt: Text("Password").foregroundStyle(.white.opacity(0.6)))
+                    TextField("", text: $password, prompt: Text("Password").foregroundColor(.white.opacity(0.6)))
                         .padding()
                         .padding(.vertical, 5)
                         .background {
@@ -79,7 +79,7 @@ struct RegistrationView: View {
                         }
                         .padding(.horizontal)
                     
-                    TextField("", text: $confirm, prompt: Text("Confirm password").foregroundStyle(.white.opacity(0.6)))
+                    TextField("", text: $confirm, prompt: Text("Confirm password").foregroundColor(.white.opacity(0.6)))
                         .padding()
                         .padding(.vertical, 5)
                         .background {
